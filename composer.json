@@ -1,0 +1,44 @@
+{
+    "name": "anomaly/comments",
+    "type": "streams-addon",
+    "description": "A powerful commenting system",
+    "keywords": [
+        "streams module",
+        "streams addon",
+        "module"
+    ],
+    "homepage": "http://pyrocms.com/addons/anomaly/comments",
+    "license": "MIT",
+    "assets": {
+        "icon": "marketplace/sjdjdj.png",
+        "screenshots": []
+    },
+    "authors": [
+        {
+            "name": "PyroCMS, Inc.",
+            "homepage": "http://pyrocms.com/",
+            "role": "Owner"
+        },
+        {
+            "name": "Ryan Thompson",
+            "homepage": "http://ryanthepyro.com/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "docs": "https://pyrocms.com/documentation/comments",
+        "forum": "https://pyrocms.com/forum/channels/comments",
+        "slack": "https://pyrocms.com/slack",
+        "issues": "https://github.com/pyrocms/pyrocms/issues?q=is:issue is:open [comments]",
+        "source": "https://github.com/anomalylabs/comments"
+    },
+    "require": {
+        "composer/composer": "^1.6",
+        "anomaly/streams-platform": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anomaly\\AddonsModule\\": "src/"
+        }
+    }
+}
